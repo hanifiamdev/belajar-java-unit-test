@@ -1,6 +1,7 @@
 package hanifiamdev.com.test;
 
 import hanifiamdev.com.test.generator.SimpleDisplayNameGenerator;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.Test;
@@ -39,4 +40,9 @@ public class CalculatorTest {
         });
 
     }
+
+    @Test
+    @Disabled
+    public void testComingSoon() {}
+
 }
